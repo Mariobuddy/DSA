@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.child{
+    width: 406px;
+    height: 406px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+img{
+    width: 400px;
+    height: 400px;
+    animation: Ani 2s linear infinite 2s;
+    margin-left: 1px;
+}
+
+
+
+/* 
+
+@keyframes Ani{
+
+    0%{
+        transform: translate(100%);
+    }
+} */
