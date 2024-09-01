@@ -7,7 +7,7 @@ const rotate90 = (arr) => {
   return arr;
 };
 
-console.log("Hello");
+console.log("lelo");
 
 console.log(
   rotate90([
