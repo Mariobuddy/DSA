@@ -7,6 +7,8 @@ const rotate90 = (arr) => {
   return arr;
 };
 
+console.log("Hello");
+
 console.log(
   rotate90([
     [1, 2, 3],
